@@ -1,0 +1,4224 @@
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15474
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47402
+Release Time: 2008-07-04T10:18:44.514759
+Execution Time: 2008-07-05T00:39:19.000000
+Uplink Time: 2008-07-04T10:18:45.344382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC72 0013 FFDB 9255 E11C 2013 0807
+0010:     0500 3919 0800 0100 7719 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15475
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47403
+Release Time: 2008-07-04T10:18:45.575016
+Execution Time: 2008-07-05T01:08:51.000000
+Uplink Time: 2008-07-04T10:18:46.404382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC73 0013 FFDB 9255 E118 2013 0807
+0010:     0501 0851 0001 0000 E788 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15476
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47404
+Release Time: 2008-07-04T10:18:46.634742
+Execution Time: 2008-07-05T01:24:50.000000
+Uplink Time: 2008-07-04T10:18:47.480382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC74 000F FFDB 9255 E117 2013 0807
+0010:     0501 2450 FBBE 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15477
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47405
+Release Time: 2008-07-04T10:18:47.694895
+Execution Time: 2008-07-05T01:24:51.000000
+Uplink Time: 2008-07-04T10:18:48.524382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC75 0011 FFDB 9255 E301 2013 0807
+0010:     0501 2451 0000 397F 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15478
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47406
+Release Time: 2008-07-04T10:18:48.755159
+Execution Time: 2008-07-05T01:24:52.000000
+Uplink Time: 2008-07-04T10:18:49.600382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC76 0013 FFDB 9255 E302 2013 0807
+0010:     0501 2452 0000 0000 D326 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15479
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47407
+Release Time: 2008-07-04T10:18:49.815134
+Execution Time: 2008-07-05T01:27:02.000000
+Uplink Time: 2008-07-04T10:18:50.660382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC77 0013 FFDB 9255 E11C 2013 0807
+0010:     0501 2702 0400 0100 4085 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15480
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47408
+Release Time: 2008-07-04T10:18:50.874909
+Execution Time: 2008-07-05T01:33:47.000000
+Uplink Time: 2008-07-04T10:18:51.704382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC78 0011 FFDB 9255 E11A 2013 0807
+0010:     0501 3347 0000 0DAB 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15481
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47409
+Release Time: 2008-07-04T10:18:51.936006
+Execution Time: 2008-07-05T01:35:49.000000
+Uplink Time: 2008-07-04T10:18:52.780382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC79 0017 FFDB 9255 E405 2013 0807
+0010:     0501 3549 0001 0E50 0000 0017 27B0 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15482
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47410
+Release Time: 2008-07-04T10:18:52.995155
+Execution Time: 2008-07-05T01:47:12.000000
+Uplink Time: 2008-07-04T10:18:53.824382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC7A 000F FFDB 9255 E117 2013 0807
+0010:     0501 4712 281D 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15487
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47411
+Release Time: 2008-07-04T10:18:58.336654
+Execution Time: 2008-07-05T02:14:36.000000
+Uplink Time: 2008-07-04T10:18:59.188382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC7F 0013 FFDB 9255 E11C 2013 0807
+0010:     0502 1436 0800 0100 7CC7 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15488
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47412
+Release Time: 2008-07-04T10:18:59.395169
+Execution Time: 2008-07-05T02:52:41.000000
+Uplink Time: 2008-07-04T10:19:00.248382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC80 0013 FFDB 9255 E118 2013 0807
+0010:     0502 5241 0001 0000 0D11 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15489
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47413
+Release Time: 2008-07-04T10:19:00.455135
+Execution Time: 2008-07-05T03:06:27.000000
+Uplink Time: 2008-07-04T10:19:01.308382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC81 000F FFDB 9255 E117 2013 0807
+0010:     0503 0627 024F 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15490
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47414
+Release Time: 2008-07-04T10:19:01.515252
+Execution Time: 2008-07-05T03:06:28.000000
+Uplink Time: 2008-07-04T10:19:02.352382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC82 0011 FFDB 9255 E301 2013 0807
+0010:     0503 0628 0000 D806 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15491
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47415
+Release Time: 2008-07-04T10:19:02.575595
+Execution Time: 2008-07-05T03:06:29.000000
+Uplink Time: 2008-07-04T10:19:03.412382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC83 0013 FFDB 9255 E302 2013 0807
+0010:     0503 0629 0000 0000 E055 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15492
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47416
+Release Time: 2008-07-04T10:19:03.645332
+Execution Time: 2008-07-05T03:02:18.000000
+Uplink Time: 2008-07-04T10:19:04.488382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC84 0013 FFDB 9255 E11C 2013 0807
+0010:     0503 0218 0400 0100 D44C 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15493
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47417
+Release Time: 2008-07-04T10:19:04.695325
+Execution Time: 2008-07-05T03:49:51.000000
+Uplink Time: 2008-07-04T10:19:05.532382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC85 0013 FFDB 9255 E11C 2013 0807
+0010:     0503 4951 0800 0100 5E2E 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15494
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47418
+Release Time: 2008-07-04T10:19:05.745436
+Execution Time: 2008-07-05T03:15:47.000000
+Uplink Time: 2008-07-04T10:19:06.576382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC86 0011 FFDB 9255 E11A 2013 0807
+0010:     0503 1547 0000 2E9B 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15495
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47419
+Release Time: 2008-07-04T10:19:06.785556
+Execution Time: 2008-07-05T03:17:49.000000
+Uplink Time: 2008-07-04T10:19:07.620382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC87 0017 FFDB 9255 E405 2013 0807
+0010:     0503 1749 0001 0E50 0000 0017 7D83 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15496
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47420
+Release Time: 2008-07-04T10:19:07.860488
+Execution Time: 2008-07-05T03:29:15.000000
+Uplink Time: 2008-07-04T10:19:08.712382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC88 000F FFDB 9255 E117 2013 0807
+0010:     0503 2915 9574 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15501
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47421
+Release Time: 2008-07-04T10:19:13.125647
+Execution Time: 2008-07-05T04:36:00.000000
+Uplink Time: 2008-07-04T10:19:13.964382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC8D 0013 FFDB 9255 E118 2013 0807
+0010:     0504 3600 0001 0000 338F 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15502
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47422
+Release Time: 2008-07-04T10:19:14.165642
+Execution Time: 2008-07-05T04:48:14.000000
+Uplink Time: 2008-07-04T10:19:15.024382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC8E 000F FFDB 9255 E117 2013 0807
+0010:     0504 4814 5A92 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15503
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47423
+Release Time: 2008-07-04T10:19:15.205906
+Execution Time: 2008-07-05T04:48:15.000000
+Uplink Time: 2008-07-04T10:19:16.036381
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC8F 0011 FFDB 9255 E301 2013 0807
+0010:     0504 4815 0000 F2DE 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15504
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47424
+Release Time: 2008-07-04T10:19:16.245831
+Execution Time: 2008-07-05T04:48:16.000000
+Uplink Time: 2008-07-04T10:19:17.080382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC90 0013 FFDB 9255 E302 2013 0807
+0010:     0504 4816 0000 0000 9A43 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15505
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47425
+Release Time: 2008-07-04T10:19:17.285723
+Execution Time: 2008-07-05T04:37:33.000000
+Uplink Time: 2008-07-04T10:19:18.124382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC91 0013 FFDB 9255 E11C 2013 0807
+0010:     0504 3733 0400 0100 794E 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15506
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47426
+Release Time: 2008-07-04T10:19:18.325819
+Execution Time: 2008-07-05T05:25:08.000000
+Uplink Time: 2008-07-04T10:19:19.168382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC92 0013 FFDB 9255 E11C 2013 0807
+0010:     0505 2508 0800 0100 91F3 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15507
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47427
+Release Time: 2008-07-04T10:19:19.365898
+Execution Time: 2008-07-05T04:57:44.000000
+Uplink Time: 2008-07-04T10:19:20.212382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC93 0011 FFDB 9255 E11A 2013 0807
+0010:     0504 5744 0000 35B6 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15508
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47428
+Release Time: 2008-07-04T10:19:20.405885
+Execution Time: 2008-07-05T04:59:46.000000
+Uplink Time: 2008-07-04T10:19:21.224382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC94 0017 FFDB 9255 E405 2013 0807
+0010:     0504 5946 0001 0E50 0000 0017 529C 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15509
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47429
+Release Time: 2008-07-04T10:19:21.445917
+Execution Time: 2008-07-05T05:11:19.000000
+Uplink Time: 2008-07-04T10:19:22.284382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC95 000F FFDB 9255 E117 2013 0807
+0010:     0505 1119 A01F 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15514
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47430
+Release Time: 2008-07-04T10:19:26.686566
+Execution Time: 2008-07-05T06:12:50.000000
+Uplink Time: 2008-07-04T10:19:27.504382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC9A 0013 FFDB 9255 E11C 2013 0807
+0010:     0506 1250 0400 0100 39E7 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15515
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47431
+Release Time: 2008-07-04T10:19:27.736249
+Execution Time: 2008-07-05T06:18:36.000000
+Uplink Time: 2008-07-04T10:19:28.596382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC9B 0013 FFDB 9255 E118 2013 0807
+0010:     0506 1836 0001 0000 7517 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15516
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47432
+Release Time: 2008-07-04T10:19:28.796055
+Execution Time: 2008-07-05T06:30:20.000000
+Uplink Time: 2008-07-04T10:19:29.640382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC9C 000F FFDB 9255 E117 2013 0807
+0010:     0506 3020 FC10 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15517
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47433
+Release Time: 2008-07-04T10:19:29.856046
+Execution Time: 2008-07-05T06:30:21.000000
+Uplink Time: 2008-07-04T10:19:30.716382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC9D 0011 FFDB 9255 E301 2013 0807
+0010:     0506 3021 0000 F4CC 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15518
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47434
+Release Time: 2008-07-04T10:19:30.916286
+Execution Time: 2008-07-05T06:30:22.000000
+Uplink Time: 2008-07-04T10:19:31.760382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC9E 0013 FFDB 9255 E302 2013 0807
+0010:     0506 3022 0000 0000 2496 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15519
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47435
+Release Time: 2008-07-04T10:19:31.976085
+Execution Time: 2008-07-05T07:00:23.000000
+Uplink Time: 2008-07-04T10:19:32.836382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FC9F 0013 FFDB 9255 E11C 2013 0807
+0010:     0507 0023 0800 0100 1E69 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15520
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47436
+Release Time: 2008-07-04T10:19:33.036190
+Execution Time: 2008-07-05T06:39:40.000000
+Uplink Time: 2008-07-04T10:19:33.896382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCA0 0011 FFDB 9255 E11A 2013 0807
+0010:     0506 3940 0000 749A 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15521
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47437
+Release Time: 2008-07-04T10:19:34.096309
+Execution Time: 2008-07-05T06:41:42.000000
+Uplink Time: 2008-07-04T10:19:34.940382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCA1 0017 FFDB 9255 E405 2013 0807
+0010:     0506 4142 0001 0E50 0000 0017 DF14 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15522
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47438
+Release Time: 2008-07-04T10:19:35.176515
+Execution Time: 2008-07-05T06:53:22.000000
+Uplink Time: 2008-07-04T10:19:36.016381
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCA2 000F FFDB 9255 E117 2013 0807
+0010:     0506 5322 4574 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15527
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47439
+Release Time: 2008-07-04T10:19:40.507169
+Execution Time: 2008-07-05T07:48:05.000000
+Uplink Time: 2008-07-04T10:19:41.332382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCA7 0013 FFDB 9255 E11C 2013 0807
+0010:     0507 4805 0400 0100 BF38 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15528
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47440
+Release Time: 2008-07-04T10:19:41.576508
+Execution Time: 2008-07-05T08:00:31.000000
+Uplink Time: 2008-07-04T10:19:42.424382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCA8 0013 FFDB 9255 E118 2013 0807
+0010:     0508 0031 0001 0000 DAC0 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15529
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47441
+Release Time: 2008-07-04T10:19:42.636451
+Execution Time: 2008-07-05T08:12:42.000000
+Uplink Time: 2008-07-04T10:19:43.468382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCA9 000F FFDB 9255 E117 2013 0807
+0010:     0508 1242 BA18 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15530
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47442
+Release Time: 2008-07-04T10:19:43.696557
+Execution Time: 2008-07-05T08:12:43.000000
+Uplink Time: 2008-07-04T10:19:44.544382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCAA 0011 FFDB 9255 E301 2013 0807
+0010:     0508 1243 0000 7EB1 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15531
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47443
+Release Time: 2008-07-04T10:19:44.756578
+Execution Time: 2008-07-05T08:12:44.000000
+Uplink Time: 2008-07-04T10:19:45.604382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCAB 0013 FFDB 9255 E302 2013 0807
+0010:     0508 1244 0000 0000 4D34 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15532
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47444
+Release Time: 2008-07-04T10:19:45.816639
+Execution Time: 2008-07-05T08:35:39.000000
+Uplink Time: 2008-07-04T10:19:46.664382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCAC 0013 FFDB 9255 E11C 2013 0807
+0010:     0508 3539 0800 0100 57B4 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15533
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47445
+Release Time: 2008-07-04T10:19:46.876606
+Execution Time: 2008-07-05T08:21:37.000000
+Uplink Time: 2008-07-04T10:19:47.724382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCAD 0011 FFDB 9255 E11A 2013 0807
+0010:     0508 2137 0000 7EF0 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15534
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47446
+Release Time: 2008-07-04T10:19:47.946729
+Execution Time: 2008-07-05T08:23:39.000000
+Uplink Time: 2008-07-04T10:19:48.800382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCAE 0017 FFDB 9255 E405 2013 0807
+0010:     0508 2339 0001 0E50 0000 0017 735C 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15535
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47447
+Release Time: 2008-07-04T10:19:49.007257
+Execution Time: 2008-07-05T08:35:26.000000
+Uplink Time: 2008-07-04T10:19:49.860382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCAF 000F FFDB 9255 E117 2013 0807
+0010:     0508 3526 6B07 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15540
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47448
+Release Time: 2008-07-04T10:19:54.326954
+Execution Time: 2008-07-05T09:23:21.000000
+Uplink Time: 2008-07-04T10:19:55.160382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCB4 0013 FFDB 9255 E11C 2013 0807
+0010:     0509 2321 0400 0100 704E 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15541
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47449
+Release Time: 2008-07-04T10:19:55.366937
+Execution Time: 2008-07-05T09:41:56.000000
+Uplink Time: 2008-07-04T10:19:56.220382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCB5 0013 FFDB 9255 E118 2013 0807
+0010:     0509 4156 0001 0000 C0EF 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15542
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47450
+Release Time: 2008-07-04T10:19:56.406913
+Execution Time: 2008-07-05T09:55:12.000000
+Uplink Time: 2008-07-04T10:19:57.264382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCB6 000F FFDB 9255 E117 2013 0807
+0010:     0509 5512 A839 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15543
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47451
+Release Time: 2008-07-04T10:19:57.447061
+Execution Time: 2008-07-05T09:55:13.000000
+Uplink Time: 2008-07-04T10:19:58.292382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCB7 0011 FFDB 9255 E301 2013 0807
+0010:     0509 5513 0000 83FC 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15544
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47452
+Release Time: 2008-07-04T10:19:58.486993
+Execution Time: 2008-07-05T09:55:14.000000
+Uplink Time: 2008-07-04T10:19:59.352382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCB8 0013 FFDB 9255 E302 2013 0807
+0010:     0509 5514 0000 0000 A2C0 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15545
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47453
+Release Time: 2008-07-04T10:19:59.527179
+Execution Time: 2008-07-05T10:10:55.000000
+Uplink Time: 2008-07-04T10:20:00.364382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCB9 0013 FFDB 9255 E11C 2013 0807
+0010:     0510 1055 0800 0100 2B1C 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15546
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47454
+Release Time: 2008-07-04T10:20:00.567177
+Execution Time: 2008-07-05T10:03:34.000000
+Uplink Time: 2008-07-04T10:20:01.408382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCBA 0011 FFDB 9255 E11A 2013 0807
+0010:     0510 0334 0000 F1B3 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15547
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47455
+Release Time: 2008-07-04T10:20:01.607129
+Execution Time: 2008-07-05T10:05:36.000000
+Uplink Time: 2008-07-04T10:20:02.436382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCBB 0017 FFDB 9255 E405 2013 0807
+0010:     0510 0536 0001 0E50 0000 0017 0E88 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15548
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47456
+Release Time: 2008-07-04T10:20:02.662064
+Execution Time: 2008-07-05T10:17:29.000000
+Uplink Time: 2008-07-04T10:20:03.512382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCBC 000F FFDB 9255 E117 2013 0807
+0010:     0510 1729 3F89 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15553
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47457
+Release Time: 2008-07-04T10:20:07.927417
+Execution Time: 2008-07-05T10:58:37.000000
+Uplink Time: 2008-07-04T10:20:08.764382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCC1 0013 FFDB 9255 E11C 2013 0807
+0010:     0510 5837 0400 0100 0955 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15554
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47458
+Release Time: 2008-07-04T10:20:08.967580
+Execution Time: 2008-07-05T11:23:00.000000
+Uplink Time: 2008-07-04T10:20:09.792382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCC2 0013 FFDB 9255 E118 2013 0807
+0010:     0511 2300 0001 0000 F956 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15555
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47459
+Release Time: 2008-07-04T10:20:10.019274
+Execution Time: 2008-07-05T11:37:42.000000
+Uplink Time: 2008-07-04T10:20:10.852382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCC3 000F FFDB 9255 E117 2013 0807
+0010:     0511 3742 7C2B 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15556
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47460
+Release Time: 2008-07-04T10:20:11.067417
+Execution Time: 2008-07-05T11:37:43.000000
+Uplink Time: 2008-07-04T10:20:11.912382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCC4 0011 FFDB 9255 E301 2013 0807
+0010:     0511 3743 0000 8C6C 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15557
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47461
+Release Time: 2008-07-04T10:20:12.107759
+Execution Time: 2008-07-05T11:37:44.000000
+Uplink Time: 2008-07-04T10:20:12.940382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCC5 0013 FFDB 9255 E302 2013 0807
+0010:     0511 3744 0000 0000 2247 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15558
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47462
+Release Time: 2008-07-04T10:20:13.147583
+Execution Time: 2008-07-05T11:46:11.000000
+Uplink Time: 2008-07-04T10:20:13.984382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCC6 0013 FFDB 9255 E11C 2013 0807
+0010:     0511 4611 0800 0100 A890 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15559
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47463
+Release Time: 2008-07-04T10:20:14.187866
+Execution Time: 2008-07-05T11:45:32.000000
+Uplink Time: 2008-07-04T10:20:15.012382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCC7 0011 FFDB 9255 E11A 2013 0807
+0010:     0511 4532 0000 37EA 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15560
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47464
+Release Time: 2008-07-04T10:20:15.227397
+Execution Time: 2008-07-05T11:47:34.000000
+Uplink Time: 2008-07-04T10:20:16.088382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCC8 0017 FFDB 9255 E405 2013 0807
+0010:     0511 4734 0001 0E50 0000 0017 31B6 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15561
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47465
+Release Time: 2008-07-04T10:20:16.267609
+Execution Time: 2008-07-05T11:59:32.000000
+Uplink Time: 2008-07-04T10:20:17.100382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCC9 000F FFDB 9255 E117 2013 0807
+0010:     0511 5932 8C4D 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15566
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47466
+Release Time: 2008-07-04T10:20:21.597945
+Execution Time: 2008-07-05T12:33:53.000000
+Uplink Time: 2008-07-04T10:20:22.448382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCCE 0013 FFDB 9255 E11C 2013 0807
+0010:     0512 3353 0400 0100 A320 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15567
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47467
+Release Time: 2008-07-04T10:20:22.657706
+Execution Time: 2008-07-05T13:03:53.000000
+Uplink Time: 2008-07-04T10:20:23.508382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCCF 0013 FFDB 9255 E118 2013 0807
+0010:     0513 0353 0001 0000 2A66 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15568
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47468
+Release Time: 2008-07-04T10:20:23.717679
+Execution Time: 2008-07-05T13:20:07.000000
+Uplink Time: 2008-07-04T10:20:24.568382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCD0 000F FFDB 9255 E117 2013 0807
+0010:     0513 2007 BFE9 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15569
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47469
+Release Time: 2008-07-04T10:20:24.777809
+Execution Time: 2008-07-05T13:20:08.000000
+Uplink Time: 2008-07-04T10:20:25.612382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCD1 0011 FFDB 9255 E301 2013 0807
+0010:     0513 2008 0000 C964 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15570
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47470
+Release Time: 2008-07-04T10:20:25.837930
+Execution Time: 2008-07-05T13:20:09.000000
+Uplink Time: 2008-07-04T10:20:26.672382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCD2 0013 FFDB 9255 E302 2013 0807
+0010:     0513 2009 0000 0000 273E 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15571
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47471
+Release Time: 2008-07-04T10:20:26.897744
+Execution Time: 2008-07-05T13:21:26.000000
+Uplink Time: 2008-07-04T10:20:27.732382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCD3 0013 FFDB 9255 E11C 2013 0807
+0010:     0513 2126 0800 0100 0890 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15572
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47472
+Release Time: 2008-07-04T10:20:27.957858
+Execution Time: 2008-07-05T13:27:31.000000
+Uplink Time: 2008-07-04T10:20:28.792382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCD4 0011 FFDB 9255 E11A 2013 0807
+0010:     0513 2731 0000 DCDE 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15573
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47473
+Release Time: 2008-07-04T10:20:29.017924
+Execution Time: 2008-07-05T13:29:33.000000
+Uplink Time: 2008-07-04T10:20:29.868382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCD5 0017 FFDB 9255 E405 2013 0807
+0010:     0513 2933 0001 0E50 0000 0017 072E 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15574
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47474
+Release Time: 2008-07-04T10:20:30.077933
+Execution Time: 2008-07-05T13:41:35.000000
+Uplink Time: 2008-07-04T10:20:30.912382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCD6 000F FFDB 9255 E117 2013 0807
+0010:     0513 4135 F3AF 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15579
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47475
+Release Time: 2008-07-04T10:20:35.388044
+Execution Time: 2008-07-05T14:09:09.000000
+Uplink Time: 2008-07-04T10:20:36.212382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCDB 0013 FFDB 9255 E11C 2013 0807
+0010:     0514 0909 0400 0100 C497 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15580
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47476
+Release Time: 2008-07-04T10:20:36.496361
+Execution Time: 2008-07-05T14:44:42.000000
+Uplink Time: 2008-07-04T10:20:37.352382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCDC 0013 FFDB 9255 E118 2013 0807
+0010:     0514 4442 0001 0000 DF8E 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15581
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47477
+Release Time: 2008-07-04T10:20:37.568370
+Execution Time: 2008-07-05T15:02:25.000000
+Uplink Time: 2008-07-04T10:20:38.412382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCDD 000F FFDB 9255 E117 2013 0807
+0010:     0515 0225 BD97 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15582
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47478
+Release Time: 2008-07-04T10:20:38.628196
+Execution Time: 2008-07-05T15:02:26.000000
+Uplink Time: 2008-07-04T10:20:39.472382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCDE 0011 FFDB 9255 E301 2013 0807
+0010:     0515 0226 0000 E921 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15583
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47479
+Release Time: 2008-07-04T10:20:39.688379
+Execution Time: 2008-07-05T15:02:27.000000
+Uplink Time: 2008-07-04T10:20:40.532382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCDF 0013 FFDB 9255 E302 2013 0807
+0010:     0515 0227 0000 0000 8274 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15584
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47480
+Release Time: 2008-07-04T10:20:40.748266
+Execution Time: 2008-07-05T14:56:42.000000
+Uplink Time: 2008-07-04T10:20:41.576382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCE0 0013 FFDB 9255 E11C 2013 0807
+0010:     0514 5642 0800 0100 E19E 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15585
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47481
+Release Time: 2008-07-04T10:20:41.798349
+Execution Time: 2008-07-05T15:09:32.000000
+Uplink Time: 2008-07-04T10:20:42.620382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCE1 0011 FFDB 9255 E11A 2013 0807
+0010:     0515 0932 0000 1BF8 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15586
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47482
+Release Time: 2008-07-04T10:20:42.840468
+Execution Time: 2008-07-05T15:11:34.000000
+Uplink Time: 2008-07-04T10:20:43.680382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCE2 0017 FFDB 9255 E405 2013 0807
+0010:     0515 1134 0001 0E50 0000 0017 44C0 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15587
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47483
+Release Time: 2008-07-04T10:20:43.888526
+Execution Time: 2008-07-05T15:23:37.000000
+Uplink Time: 2008-07-04T10:20:44.740382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCE3 000F FFDB 9255 E117 2013 0807
+0010:     0515 2337 7D6C 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15592
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47484
+Release Time: 2008-07-04T10:20:49.108527
+Execution Time: 2008-07-05T15:44:25.000000
+Uplink Time: 2008-07-04T10:20:49.944382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCE8 0013 FFDB 9255 E11C 2013 0807
+0010:     0515 4425 0400 0100 3677 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15593
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47485
+Release Time: 2008-07-04T10:20:50.148633
+Execution Time: 2008-07-05T16:25:37.000000
+Uplink Time: 2008-07-04T10:20:51.004382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCE9 0013 FFDB 9255 E118 2013 0807
+0010:     0516 2537 0001 0000 AA3F 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15594
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47486
+Release Time: 2008-07-04T10:20:51.190825
+Execution Time: 2008-07-05T16:44:35.000000
+Uplink Time: 2008-07-04T10:20:52.048382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCEA 000F FFDB 9255 E117 2013 0807
+0010:     0516 4435 0131 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15595
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47487
+Release Time: 2008-07-04T10:20:52.228595
+Execution Time: 2008-07-05T16:44:36.000000
+Uplink Time: 2008-07-04T10:20:53.060382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCEB 0011 FFDB 9255 E301 2013 0807
+0010:     0516 4436 0000 CB72 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15596
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47488
+Release Time: 2008-07-04T10:20:53.268980
+Execution Time: 2008-07-05T16:44:37.000000
+Uplink Time: 2008-07-04T10:20:54.104382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCEC 0013 FFDB 9255 E302 2013 0807
+0010:     0516 4437 0000 0000 5410 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15597
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47489
+Release Time: 2008-07-04T10:20:54.308733
+Execution Time: 2008-07-05T16:31:58.000000
+Uplink Time: 2008-07-04T10:20:55.148382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCED 0013 FFDB 9255 E11C 2013 0807
+0010:     0516 3158 0800 0100 29EB 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15598
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47490
+Release Time: 2008-07-04T10:20:55.349414
+Execution Time: 2008-07-05T16:51:34.000000
+Uplink Time: 2008-07-04T10:20:56.208382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCEE 0011 FFDB 9255 E11A 2013 0807
+0010:     0516 5134 0000 1D53 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15599
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47491
+Release Time: 2008-07-04T10:20:56.398828
+Execution Time: 2008-07-05T16:53:36.000000
+Uplink Time: 2008-07-04T10:20:57.252382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCEF 0017 FFDB 9255 E405 2013 0807
+0010:     0516 5336 0001 0E50 0000 0017 186A 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15600
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47492
+Release Time: 2008-07-04T10:20:57.438670
+Execution Time: 2008-07-05T17:05:36.000000
+Uplink Time: 2008-07-04T10:20:58.264382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCF0 000F FFDB 9255 E117 2013 0807
+0010:     0517 0536 804A 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15605
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47493
+Release Time: 2008-07-04T10:21:02.691149
+Execution Time: 2008-07-05T17:19:41.000000
+Uplink Time: 2008-07-04T10:21:03.532382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCF5 0013 FFDB 9255 E11C 2013 0807
+0010:     0517 1941 0400 0100 0B6F 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15606
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47494
+Release Time: 2008-07-04T10:21:03.749049
+Execution Time: 2008-07-05T18:06:46.000000
+Uplink Time: 2008-07-04T10:21:04.576382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCF6 0013 FFDB 9255 E118 2013 0807
+0010:     0518 0646 0001 0000 9CB3 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15607
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47495
+Release Time: 2008-07-04T10:21:04.789419
+Execution Time: 2008-07-05T18:26:35.000000
+Uplink Time: 2008-07-04T10:21:05.636382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCF7 000F FFDB 9255 E117 2013 0807
+0010:     0518 2635 BD03 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15608
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47496
+Release Time: 2008-07-04T10:21:05.829185
+Execution Time: 2008-07-05T18:26:36.000000
+Uplink Time: 2008-07-04T10:21:06.648382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCF8 0011 FFDB 9255 E301 2013 0807
+0010:     0518 2636 0000 F23D 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15609
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47497
+Release Time: 2008-07-04T10:21:06.889195
+Execution Time: 2008-07-05T18:26:37.000000
+Uplink Time: 2008-07-04T10:21:07.708382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCF9 0013 FFDB 9255 E302 2013 0807
+0010:     0518 2637 0000 0000 8E40 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15610
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47498
+Release Time: 2008-07-04T10:21:07.949985
+Execution Time: 2008-07-05T18:07:13.000000
+Uplink Time: 2008-07-04T10:21:08.784382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCFA 0013 FFDB 9255 E11C 2013 0807
+0010:     0518 0713 0800 0100 C3D4 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15611
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47499
+Release Time: 2008-07-04T10:21:09.009251
+Execution Time: 2008-07-05T18:33:39.000000
+Uplink Time: 2008-07-04T10:21:09.860382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCFB 0011 FFDB 9255 E11A 2013 0807
+0010:     0518 3339 0000 824D 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15612
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47500
+Release Time: 2008-07-04T10:21:10.069219
+Execution Time: 2008-07-05T18:35:41.000000
+Uplink Time: 2008-07-04T10:21:10.920382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCFC 0017 FFDB 9255 E405 2013 0807
+0010:     0518 3541 0001 0E50 0000 0017 BCD0 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15613
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47501
+Release Time: 2008-07-04T10:21:11.129251
+Execution Time: 2008-07-05T18:47:34.000000
+Uplink Time: 2008-07-04T10:21:11.980382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FCFD 000F FFDB 9255 E117 2013 0807
+0010:     0518 4734 33ED 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15618
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47502
+Release Time: 2008-07-04T10:21:16.439493
+Execution Time: 2008-07-05T18:54:57.000000
+Uplink Time: 2008-07-04T10:21:17.280382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD02 0013 FFDB 9255 E11C 2013 0807
+0010:     0518 5457 0400 0100 A6BE 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15619
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47503
+Release Time: 2008-07-04T10:21:17.499265
+Execution Time: 2008-07-05T19:42:29.000000
+Uplink Time: 2008-07-04T10:21:18.324382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD03 0013 FFDB 9255 E11C 2013 0807
+0010:     0519 4229 0800 0100 C150 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15620
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47504
+Release Time: 2008-07-04T10:21:18.559444
+Execution Time: 2008-07-05T19:48:21.000000
+Uplink Time: 2008-07-04T10:21:19.400382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD04 0013 FFDB 9255 E118 2013 0807
+0010:     0519 4821 0001 0000 C890 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15621
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47505
+Release Time: 2008-07-04T10:21:19.619572
+Execution Time: 2008-07-05T20:08:24.000000
+Uplink Time: 2008-07-04T10:21:20.476382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD05 000F FFDB 9255 E117 2013 0807
+0010:     0520 0824 8D04 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15622
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47506
+Release Time: 2008-07-04T10:21:20.679444
+Execution Time: 2008-07-05T20:08:25.000000
+Uplink Time: 2008-07-04T10:21:21.536382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD06 0011 FFDB 9255 E301 2013 0807
+0010:     0520 0825 0000 310E 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15623
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47507
+Release Time: 2008-07-04T10:21:21.749083
+Execution Time: 2008-07-05T20:08:26.000000
+Uplink Time: 2008-07-04T10:21:22.596382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD07 0013 FFDB 9255 E302 2013 0807
+0010:     0520 0826 0000 0000 8FF4 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15624
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47508
+Release Time: 2008-07-04T10:21:22.809536
+Execution Time: 2008-07-05T20:15:46.000000
+Uplink Time: 2008-07-04T10:21:23.640382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD08 0011 FFDB 9255 E11A 2013 0807
+0010:     0520 1546 0000 2C89 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15625
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47509
+Release Time: 2008-07-04T10:21:23.869640
+Execution Time: 2008-07-05T20:17:48.000000
+Uplink Time: 2008-07-04T10:21:24.700382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD09 0017 FFDB 9255 E405 2013 0807
+0010:     0520 1748 0001 0E50 0000 0017 B61A 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15626
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47510
+Release Time: 2008-07-04T10:21:24.929656
+Execution Time: 2008-07-05T20:29:31.000000
+Uplink Time: 2008-07-04T10:21:25.760382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD0A 000F FFDB 9255 E117 2013 0807
+0010:     0520 2931 0FF9 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15631
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47511
+Release Time: 2008-07-04T10:21:30.269841
+Execution Time: 2008-07-05T20:30:13.000000
+Uplink Time: 2008-07-04T10:21:31.124382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD0F 0013 FFDB 9255 E11C 2013 0807
+0010:     0520 3013 0400 0100 D072 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15632
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47512
+Release Time: 2008-07-04T10:21:31.309796
+Execution Time: 2008-07-05T21:17:45.000000
+Uplink Time: 2008-07-04T10:21:32.152382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD10 0013 FFDB 9255 E11C 2013 0807
+0010:     0521 1745 0800 0100 4AE4 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15633
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47513
+Release Time: 2008-07-04T10:21:32.349784
+Execution Time: 2008-07-05T21:30:36.000000
+Uplink Time: 2008-07-04T10:21:33.212382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD11 0013 FFDB 9255 E118 2013 0807
+0010:     0521 3036 0001 0000 1560 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15634
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47514
+Release Time: 2008-07-04T10:21:33.389916
+Execution Time: 2008-07-05T21:50:03.000000
+Uplink Time: 2008-07-04T10:21:34.224382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD12 000F FFDB 9255 E117 2013 0807
+0010:     0521 5003 0508 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15635
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47515
+Release Time: 2008-07-04T10:21:34.439909
+Execution Time: 2008-07-05T21:50:04.000000
+Uplink Time: 2008-07-04T10:21:35.284382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD13 0011 FFDB 9255 E301 2013 0807
+0010:     0521 5004 0000 7C0C 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15636
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47516
+Release Time: 2008-07-04T10:21:35.510150
+Execution Time: 2008-07-05T21:50:05.000000
+Uplink Time: 2008-07-04T10:21:36.344382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD14 0013 FFDB 9255 E302 2013 0807
+0010:     0521 5005 0000 0000 4CD3 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15637
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47517
+Release Time: 2008-07-04T10:21:36.550069
+Execution Time: 2008-07-05T21:57:53.000000
+Uplink Time: 2008-07-04T10:21:37.404382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD15 0011 FFDB 9255 E11A 2013 0807
+0010:     0521 5753 0000 9BDC 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15638
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47518
+Release Time: 2008-07-04T10:21:37.590116
+Execution Time: 2008-07-05T21:59:55.000000
+Uplink Time: 2008-07-04T10:21:38.432382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD16 0017 FFDB 9255 E405 2013 0807
+0010:     0521 5955 0001 0E50 0000 0017 F67B 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15639
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47519
+Release Time: 2008-07-04T10:21:38.631811
+Execution Time: 2008-07-05T22:11:29.000000
+Uplink Time: 2008-07-04T10:21:39.476382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD17 000F FFDB 9255 E117 2013 0807
+0010:     0522 1129 B4E7 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15644
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47520
+Release Time: 2008-07-04T10:21:43.870284
+Execution Time: 2008-07-05T22:05:29.000000
+Uplink Time: 2008-07-04T10:21:44.712382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD1C 0013 FFDB 9255 E11C 2013 0807
+0010:     0522 0529 0400 0100 76AA 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15645
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47521
+Release Time: 2008-07-04T10:21:44.910238
+Execution Time: 2008-07-05T22:53:01.000000
+Uplink Time: 2008-07-04T10:21:45.756382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD1D 0013 FFDB 9255 E11C 2013 0807
+0010:     0522 5301 0800 0100 1B82 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15646
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47522
+Release Time: 2008-07-04T10:21:45.950762
+Execution Time: 2008-07-05T23:13:43.000000
+Uplink Time: 2008-07-04T10:21:46.784382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD1E 0013 FFDB 9255 E118 2013 0807
+0010:     0523 1343 0001 0000 764C 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15647
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47523
+Release Time: 2008-07-04T10:21:46.991356
+Execution Time: 2008-07-05T23:31:35.000000
+Uplink Time: 2008-07-04T10:21:47.844382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD1F 000F FFDB 9255 E117 2013 0807
+0010:     0523 3135 D19C 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15648
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47524
+Release Time: 2008-07-04T10:21:48.057042
+Execution Time: 2008-07-05T23:31:36.000000
+Uplink Time: 2008-07-04T10:21:48.904382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD20 0011 FFDB 9255 E301 2013 0807
+0010:     0523 3136 0000 9ECB 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15649
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47525
+Release Time: 2008-07-04T10:21:49.100446
+Execution Time: 2008-07-05T23:31:37.000000
+Uplink Time: 2008-07-04T10:21:49.948382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD21 0013 FFDB 9255 E302 2013 0807
+0010:     0523 3137 0000 0000 4FDE 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15650
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47526
+Release Time: 2008-07-04T10:21:50.140402
+Execution Time: 2008-07-05T23:39:59.000000
+Uplink Time: 2008-07-04T10:21:50.976382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD22 0011 FFDB 9255 E11A 2013 0807
+0010:     0523 3959 0000 89EE 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15651
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47527
+Release Time: 2008-07-04T10:21:51.180770
+Execution Time: 2008-07-05T23:42:01.000000
+Uplink Time: 2008-07-04T10:21:52.036381
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD23 0017 FFDB 9255 E405 2013 0807
+0010:     0523 4201 0001 0E50 0000 0017 C61B 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15652
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47528
+Release Time: 2008-07-04T10:21:52.220377
+Execution Time: 2008-07-05T23:53:28.000000
+Uplink Time: 2008-07-04T10:21:53.064382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD24 000F FFDB 9255 E117 2013 0807
+0010:     0523 5328 EB7D 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15657
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47529
+Release Time: 2008-07-04T10:21:57.460600
+Execution Time: 2008-07-05T23:40:44.000000
+Uplink Time: 2008-07-04T10:21:58.316382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD29 0013 FFDB 9255 E11C 2013 0807
+0010:     0523 4044 0400 0100 EE47 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15658
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47530
+Release Time: 2008-07-04T10:21:58.520560
+Execution Time: 2008-07-06T00:28:16.000000
+Uplink Time: 2008-07-04T10:21:59.360382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD2A 0013 FFDB 9255 E11C 2013 0807
+0010:     0600 2816 0800 0100 B2A4 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15659
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47531
+Release Time: 2008-07-04T10:21:59.580923
+Execution Time: 2008-07-06T00:57:23.000000
+Uplink Time: 2008-07-04T10:22:00.420382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD2B 0013 FFDB 9255 E118 2013 0807
+0010:     0600 5723 0001 0000 4C1B 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15660
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47532
+Release Time: 2008-07-04T10:22:00.640753
+Execution Time: 2008-07-06T01:13:06.000000
+Uplink Time: 2008-07-04T10:22:01.464382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD2C 000F FFDB 9255 E117 2013 0807
+0010:     0601 1306 D777 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15661
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47533
+Release Time: 2008-07-04T10:22:01.700959
+Execution Time: 2008-07-06T01:13:07.000000
+Uplink Time: 2008-07-04T10:22:02.524382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD2D 0011 FFDB 9255 E301 2013 0807
+0010:     0601 1307 0000 3291 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15662
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47534
+Release Time: 2008-07-04T10:22:02.760705
+Execution Time: 2008-07-06T01:13:08.000000
+Uplink Time: 2008-07-04T10:22:03.584382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD2E 0013 FFDB 9255 E302 2013 0807
+0010:     0601 1308 0000 0000 9817 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15663
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47535
+Release Time: 2008-07-04T10:22:03.830809
+Execution Time: 2008-07-06T01:16:01.000000
+Uplink Time: 2008-07-04T10:22:04.692382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD2F 0013 FFDB 9255 E11C 2013 0807
+0010:     0601 1601 0400 0100 3B1B 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15664
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47536
+Release Time: 2008-07-04T10:22:04.890946
+Execution Time: 2008-07-06T01:22:02.000000
+Uplink Time: 2008-07-04T10:22:05.736382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD30 0011 FFDB 9255 E11A 2013 0807
+0010:     0601 2202 0000 3CFC 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15665
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47537
+Release Time: 2008-07-04T10:22:05.951118
+Execution Time: 2008-07-06T01:24:04.000000
+Uplink Time: 2008-07-04T10:22:06.796382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD31 0017 FFDB 9255 E405 2013 0807
+0010:     0601 2404 0001 0E50 0000 0017 1685 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15666
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47538
+Release Time: 2008-07-04T10:22:07.011085
+Execution Time: 2008-07-06T01:35:29.000000
+Uplink Time: 2008-07-04T10:22:07.856382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD32 000F FFDB 9255 E117 2013 0807
+0010:     0601 3529 55E7 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15671
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47539
+Release Time: 2008-07-04T10:22:12.331160
+Execution Time: 2008-07-06T02:03:32.000000
+Uplink Time: 2008-07-04T10:22:13.172382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD37 0013 FFDB 9255 E11C 2013 0807
+0010:     0602 0332 0800 0100 56A9 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15672
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47540
+Release Time: 2008-07-04T10:22:13.391048
+Execution Time: 2008-07-06T02:41:07.000000
+Uplink Time: 2008-07-04T10:22:14.232382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD38 0013 FFDB 9255 E118 2013 0807
+0010:     0602 4107 0001 0000 DAD9 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15673
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47541
+Release Time: 2008-07-04T10:22:14.455622
+Execution Time: 2008-07-06T02:54:45.000000
+Uplink Time: 2008-07-04T10:22:15.292382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD39 000F FFDB 9255 E117 2013 0807
+0010:     0602 5445 2FB0 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15674
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47542
+Release Time: 2008-07-04T10:22:15.531127
+Execution Time: 2008-07-06T02:54:46.000000
+Uplink Time: 2008-07-04T10:22:16.384382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD3A 0011 FFDB 9255 E301 2013 0807
+0010:     0602 5446 0000 C32D 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15675
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47543
+Release Time: 2008-07-04T10:22:16.591356
+Execution Time: 2008-07-06T02:54:47.000000
+Uplink Time: 2008-07-04T10:22:17.412382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD3B 0013 FFDB 9255 E302 2013 0807
+0010:     0602 5447 0000 0000 AAD5 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15676
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47544
+Release Time: 2008-07-04T10:22:17.651203
+Execution Time: 2008-07-06T02:51:16.000000
+Uplink Time: 2008-07-04T10:22:18.488382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD3C 0013 FFDB 9255 E11C 2013 0807
+0010:     0602 5116 0400 0100 C2B0 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15677
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47545
+Release Time: 2008-07-04T10:22:18.712703
+Execution Time: 2008-07-06T03:04:02.000000
+Uplink Time: 2008-07-04T10:22:19.564382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD3D 0011 FFDB 9255 E11A 2013 0807
+0010:     0603 0402 0000 6E96 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15678
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47546
+Release Time: 2008-07-04T10:22:19.781295
+Execution Time: 2008-07-06T03:06:04.000000
+Uplink Time: 2008-07-04T10:22:20.624382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD3E 0017 FFDB 9255 E405 2013 0807
+0010:     0603 0604 0001 0E50 0000 0017 947E 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15679
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47547
+Release Time: 2008-07-04T10:22:20.831400
+Execution Time: 2008-07-06T03:17:32.000000
+Uplink Time: 2008-07-04T10:22:21.684382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD3F 000F FFDB 9255 E117 2013 0807
+0010:     0603 1732 2C23 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15684
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47548
+Release Time: 2008-07-04T10:22:26.041425
+Execution Time: 2008-07-06T03:38:48.000000
+Uplink Time: 2008-07-04T10:22:26.888382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD44 0013 FFDB 9255 E11C 2013 0807
+0010:     0603 3848 0800 0100 AFF5 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15685
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47549
+Release Time: 2008-07-04T10:22:27.081561
+Execution Time: 2008-07-06T04:24:17.000000
+Uplink Time: 2008-07-04T10:22:27.948382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD45 0013 FFDB 9255 E118 2013 0807
+0010:     0604 2417 0001 0000 8684 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15686
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47550
+Release Time: 2008-07-04T10:22:28.121576
+Execution Time: 2008-07-06T04:36:36.000000
+Uplink Time: 2008-07-04T10:22:28.960382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD46 000F FFDB 9255 E117 2013 0807
+0010:     0604 3636 1115 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15687
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47551
+Release Time: 2008-07-04T10:22:29.161665
+Execution Time: 2008-07-06T04:36:37.000000
+Uplink Time: 2008-07-04T10:22:30.004382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD47 0011 FFDB 9255 E301 2013 0807
+0010:     0604 3637 0000 C287 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15688
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47552
+Release Time: 2008-07-04T10:22:30.201668
+Execution Time: 2008-07-06T04:36:38.000000
+Uplink Time: 2008-07-04T10:22:31.032381
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD48 0013 FFDB 9255 E302 2013 0807
+0010:     0604 3638 0000 0000 51EC 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15689
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47553
+Release Time: 2008-07-04T10:22:31.241634
+Execution Time: 2008-07-06T04:26:33.000000
+Uplink Time: 2008-07-04T10:22:32.092382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD49 0013 FFDB 9255 E11C 2013 0807
+0010:     0604 2633 0400 0100 EFE6 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15690
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47554
+Release Time: 2008-07-04T10:22:32.281767
+Execution Time: 2008-07-06T05:14:04.000000
+Uplink Time: 2008-07-04T10:22:33.104382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD4A 0013 FFDB 9255 E11C 2013 0807
+0010:     0605 1404 0800 0100 B978 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15691
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47555
+Release Time: 2008-07-04T10:22:33.321786
+Execution Time: 2008-07-06T04:45:59.000000
+Uplink Time: 2008-07-04T10:22:34.164382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD4B 0011 FFDB 9255 E11A 2013 0807
+0010:     0604 4559 0000 CAC6 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15692
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47556
+Release Time: 2008-07-04T10:22:34.361732
+Execution Time: 2008-07-06T04:48:01.000000
+Uplink Time: 2008-07-04T10:22:35.208382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD4C 0017 FFDB 9255 E405 2013 0807
+0010:     0604 4801 0001 0E50 0000 0017 49D5 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15693
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47557
+Release Time: 2008-07-04T10:22:35.402315
+Execution Time: 2008-07-06T04:59:35.000000
+Uplink Time: 2008-07-04T10:22:36.284382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD4D 000F FFDB 9255 E117 2013 0807
+0010:     0604 5935 8C54 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15698
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47558
+Release Time: 2008-07-04T10:22:40.692890
+Execution Time: 2008-07-06T06:01:48.000000
+Uplink Time: 2008-07-04T10:22:41.536382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD52 0013 FFDB 9255 E11C 2013 0807
+0010:     0606 0148 0400 0100 ACB5 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15699
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47559
+Release Time: 2008-07-04T10:22:41.742324
+Execution Time: 2008-07-06T06:06:46.000000
+Uplink Time: 2008-07-04T10:22:42.580382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD53 0013 FFDB 9255 E118 2013 0807
+0010:     0606 0646 0001 0000 B5F7 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15700
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47560
+Release Time: 2008-07-04T10:22:42.783879
+Execution Time: 2008-07-06T06:18:43.000000
+Uplink Time: 2008-07-04T10:22:43.640382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD54 000F FFDB 9255 E117 2013 0807
+0010:     0606 1843 4B6B 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15701
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47561
+Release Time: 2008-07-04T10:22:43.832351
+Execution Time: 2008-07-06T06:18:44.000000
+Uplink Time: 2008-07-04T10:22:44.668382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD55 0011 FFDB 9255 E301 2013 0807
+0010:     0606 1844 0000 0E0A 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15702
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47562
+Release Time: 2008-07-04T10:22:44.892176
+Execution Time: 2008-07-06T06:18:45.000000
+Uplink Time: 2008-07-04T10:22:45.712382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD56 0013 FFDB 9255 E302 2013 0807
+0010:     0606 1845 0000 0000 2595 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15703
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47563
+Release Time: 2008-07-04T10:22:45.952234
+Execution Time: 2008-07-06T06:49:20.000000
+Uplink Time: 2008-07-04T10:22:46.772382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD57 0013 FFDB 9255 E11C 2013 0807
+0010:     0606 4920 0800 0100 2D69 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15704
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47564
+Release Time: 2008-07-04T10:22:47.012274
+Execution Time: 2008-07-06T06:27:56.000000
+Uplink Time: 2008-07-04T10:22:47.848382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD58 0011 FFDB 9255 E11A 2013 0807
+0010:     0606 2756 0000 5493 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15705
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47565
+Release Time: 2008-07-04T10:22:48.072458
+Execution Time: 2008-07-06T06:29:58.000000
+Uplink Time: 2008-07-04T10:22:48.924382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD59 0017 FFDB 9255 E405 2013 0807
+0010:     0606 2958 0001 0E50 0000 0017 5B4E 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15706
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47566
+Release Time: 2008-07-04T10:22:49.136680
+Execution Time: 2008-07-06T06:41:37.000000
+Uplink Time: 2008-07-04T10:22:49.984382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD5A 000F FFDB 9255 E117 2013 0807
+0010:     0606 4137 2403 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15711
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47567
+Release Time: 2008-07-04T10:22:54.482397
+Execution Time: 2008-07-06T07:37:03.000000
+Uplink Time: 2008-07-04T10:22:55.316382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD5F 0013 FFDB 9255 E11C 2013 0807
+0010:     0607 3703 0400 0100 3615 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15712
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47568
+Release Time: 2008-07-04T10:22:55.552402
+Execution Time: 2008-07-06T07:48:36.000000
+Uplink Time: 2008-07-04T10:22:56.408382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD60 0013 FFDB 9255 E118 2013 0807
+0010:     0607 4836 0001 0000 17EE 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15713
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47569
+Release Time: 2008-07-04T10:22:56.612348
+Execution Time: 2008-07-06T08:01:03.000000
+Uplink Time: 2008-07-04T10:22:57.468382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD61 000F FFDB 9255 E117 2013 0807
+0010:     0608 0103 D02C 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15714
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47570
+Release Time: 2008-07-04T10:22:57.672528
+Execution Time: 2008-07-06T08:01:04.000000
+Uplink Time: 2008-07-04T10:22:58.496382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD62 0011 FFDB 9255 E301 2013 0807
+0010:     0608 0104 0000 5E27 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15715
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47571
+Release Time: 2008-07-04T10:22:58.732473
+Execution Time: 2008-07-06T08:01:05.000000
+Uplink Time: 2008-07-04T10:22:59.588382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD63 0013 FFDB 9255 E302 2013 0807
+0010:     0608 0105 0000 0000 6528 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15716
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47572
+Release Time: 2008-07-04T10:22:59.802547
+Execution Time: 2008-07-06T08:24:36.000000
+Uplink Time: 2008-07-04T10:23:00.648382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD64 0013 FFDB 9255 E11C 2013 0807
+0010:     0608 2436 0800 0100 2A28 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15717
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47573
+Release Time: 2008-07-04T10:23:00.862513
+Execution Time: 2008-07-06T08:09:53.000000
+Uplink Time: 2008-07-04T10:23:01.708382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD65 0011 FFDB 9255 E11A 2013 0807
+0010:     0608 0953 0000 B306 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15718
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47574
+Release Time: 2008-07-04T10:23:01.922683
+Execution Time: 2008-07-06T08:11:55.000000
+Uplink Time: 2008-07-04T10:23:02.752382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD66 0017 FFDB 9255 E405 2013 0807
+0010:     0608 1155 0001 0E50 0000 0017 5854 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15719
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47575
+Release Time: 2008-07-04T10:23:02.987671
+Execution Time: 2008-07-06T08:23:40.000000
+Uplink Time: 2008-07-04T10:23:03.844382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD67 000F FFDB 9255 E117 2013 0807
+0010:     0608 2340 AA43 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15724
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47576
+Release Time: 2008-07-04T10:23:08.292725
+Execution Time: 2008-07-06T09:12:19.000000
+Uplink Time: 2008-07-04T10:23:09.128382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD6C 0013 FFDB 9255 E11C 2013 0807
+0010:     0609 1219 0400 0100 DD2D 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15725
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47577
+Release Time: 2008-07-04T10:23:09.342877
+Execution Time: 2008-07-06T09:29:58.000000
+Uplink Time: 2008-07-04T10:23:10.172382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD6D 0013 FFDB 9255 E118 2013 0807
+0010:     0609 2958 0001 0000 9491 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15726
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47578
+Release Time: 2008-07-04T10:23:10.382819
+Execution Time: 2008-07-06T09:43:29.000000
+Uplink Time: 2008-07-04T10:23:11.232382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD6E 000F FFDB 9255 E117 2013 0807
+0010:     0609 4329 FC24 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15727
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47579
+Release Time: 2008-07-04T10:23:11.422919
+Execution Time: 2008-07-06T09:43:30.000000
+Uplink Time: 2008-07-04T10:23:12.260382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD6F 0011 FFDB 9255 E301 2013 0807
+0010:     0609 4330 0000 68D9 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15728
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47580
+Release Time: 2008-07-04T10:23:12.462924
+Execution Time: 2008-07-06T09:43:31.000000
+Uplink Time: 2008-07-04T10:23:13.288382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD70 0013 FFDB 9255 E302 2013 0807
+0010:     0609 4331 0000 0000 5907 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15729
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47581
+Release Time: 2008-07-04T10:23:13.502875
+Execution Time: 2008-07-06T09:59:51.000000
+Uplink Time: 2008-07-04T10:23:14.348382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD71 0013 FFDB 9255 E11C 2013 0807
+0010:     0609 5951 0800 0100 DB1E 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15730
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47582
+Release Time: 2008-07-04T10:23:14.543004
+Execution Time: 2008-07-06T09:51:50.000000
+Uplink Time: 2008-07-04T10:23:15.392382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD72 0011 FFDB 9255 E11A 2013 0807
+0010:     0609 5150 0000 BABD 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15731
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47583
+Release Time: 2008-07-04T10:23:15.593462
+Execution Time: 2008-07-06T09:53:52.000000
+Uplink Time: 2008-07-04T10:23:16.420382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD73 0017 FFDB 9255 E405 2013 0807
+0010:     0609 5352 0001 0E50 0000 0017 C5A7 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15732
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47584
+Release Time: 2008-07-04T10:23:16.663658
+Execution Time: 2008-07-06T10:05:43.000000
+Uplink Time: 2008-07-04T10:23:17.496382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD74 000F FFDB 9255 E117 2013 0807
+0010:     0610 0543 F385 
+
+#################################################################
+
+Cmd Name: ZP3328C
+Description: Sw ON SS1 PWR OFF SS2
+APID: 767
+SSC: 15737
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47585
+Release Time: 2008-07-04T10:23:21.906614
+Execution Time: 2008-07-06T10:47:35.000000
+Uplink Time: 2008-07-04T10:23:22.732382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD79 0013 FFDB 9255 E11C 2013 0807
+0010:     0610 4735 0400 0100 4D10 
+
+#################################################################
+
+Cmd Name: ZP3324
+Description: Enter SAA Phase
+APID: 767
+SSC: 15738
+Type: 33
+Sub-Type: 24
+OBNumber:
+NotPlanned:47586
+Release Time: 2008-07-04T10:23:22.943136
+Execution Time: 2008-07-06T11:11:02.000000
+Uplink Time: 2008-07-04T10:23:23.776382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD7A 0013 FFDB 9255 E118 2013 0807
+0010:     0611 1102 0001 0000 C658 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15739
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47587
+Release Time: 2008-07-04T10:23:23.983239
+Execution Time: 2008-07-06T11:25:56.000000
+Uplink Time: 2008-07-04T10:23:24.820382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD7B 000F FFDB 9255 E117 2013 0807
+0010:     0611 2556 7579 
+
+#################################################################
+
+Cmd Name: ZP3501
+Description: Enter IDLE Mode
+APID: 767
+SSC: 15740
+Type: 35
+Sub-Type: 1
+OBNumber:
+NotPlanned:47588
+Release Time: 2008-07-04T10:23:25.023601
+Execution Time: 2008-07-06T11:25:57.000000
+Uplink Time: 2008-07-04T10:23:25.880382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD7C 0011 FFDB 9255 E301 2013 0807
+0010:     0611 2557 0000 4C43 
+
+#################################################################
+
+Cmd Name: ZP3502
+Description: Enter OBS & PROC  Mode
+APID: 767
+SSC: 15741
+Type: 35
+Sub-Type: 2
+OBNumber:
+NotPlanned:47589
+Release Time: 2008-07-04T10:23:26.063457
+Execution Time: 2008-07-06T11:25:58.000000
+Uplink Time: 2008-07-04T10:23:26.908382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD7D 0013 FFDB 9255 E302 2013 0807
+0010:     0611 2558 0000 0000 E3B3 
+
+#################################################################
+
+Cmd Name: ZP3328D
+Description: Sw ON SS2 PWR OFF SS1
+APID: 767
+SSC: 15742
+Type: 33
+Sub-Type: 28
+OBNumber:
+NotPlanned:47590
+Release Time: 2008-07-04T10:23:27.104411
+Execution Time: 2008-07-06T11:35:07.000000
+Uplink Time: 2008-07-04T10:23:27.936382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD7E 0013 FFDB 9255 E11C 2013 0807
+0010:     0611 3507 0800 0100 3572 
+
+#################################################################
+
+Cmd Name: ZP3326
+Description: Enter GndStation Contact
+APID: 767
+SSC: 15743
+Type: 33
+Sub-Type: 26
+OBNumber:
+NotPlanned:47591
+Release Time: 2008-07-04T10:23:28.143814
+Execution Time: 2008-07-06T11:33:48.000000
+Uplink Time: 2008-07-04T10:23:28.980382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD7F 0011 FFDB 9255 E11A 2013 0807
+0010:     0611 3348 0000 E48C 
+
+#################################################################
+
+Cmd Name: ZP3605
+Description: Dump Memory
+APID: 767
+SSC: 15744
+Type: 36
+Sub-Type: 5
+OBNumber:
+NotPlanned:47592
+Release Time: 2008-07-04T10:23:29.193980
+Execution Time: 2008-07-06T11:35:50.000000
+Uplink Time: 2008-07-04T10:23:30.040382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD80 0017 FFDB 9255 E405 2013 0807
+0010:     0611 3550 0001 0E50 0000 0017 9F7B 
+
+#################################################################
+
+Cmd Name: ZP3323
+Description: Enter Nominal Phase
+APID: 767
+SSC: 15745
+Type: 33
+Sub-Type: 23
+OBNumber:
+NotPlanned:47593
+Release Time: 2008-07-04T10:23:30.243414
+Execution Time: 2008-07-06T11:47:46.000000
+Uplink Time: 2008-07-04T10:23:31.100382
+
+Verification Info:               R GTO A S 012345 C
+                                 ------------------
+                                 S SSS   I         
+Raw Data: 
+
+0000:     1AFF FD81 000F FFDB 9255 E117 2013 0807
+0010:     0611 4746 06DB 
+
+#################################################################
+

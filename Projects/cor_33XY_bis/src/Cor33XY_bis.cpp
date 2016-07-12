@@ -77,7 +77,7 @@ int binarySearchOBTUTC(double * vect, int n, const double v) {
 	if (value  > 6000) {
 // 		cout<<"MANCA OBTUTC RAVVICINATO "<<vect[min]-v<<endl;	
 	  
-		printf("MANCA OBTUTC RAVVICINATO %f %f %f\n",vect[min]-v,vect[min],v );
+// 		printf("MANCA OBTUTC RAVVICINATO %f %f %f\n",vect[min]-v,vect[min],v );
 		return -1;
 		}
 	else {
@@ -552,7 +552,7 @@ int CorrTime(fitsfile * output, char * infileTCSP, char * infileOBTUTC) {
 	
  	status = addfileTCSP(&inputANT[0], infileTCSP, expr, tstart-200, tstop+200);
 	
-	status = addfileTCSP(&inputOBTUTC[0], infileOBTUTC, expr2, tstart-40000, tstop+40000);	
+	status = addfileTCSP(&inputOBTUTC[0], infileOBTUTC, expr2, tstart-10000, tstop+10000);	
 
 	
 // 	fits_flush_file(inputOBTUTC[0], &status);		
@@ -630,7 +630,7 @@ int CorrTime(fitsfile * output, char * infileTCSP, char * infileOBTUTC) {
 			continue;
 			}	
 		else {
-			printf("\n//////////////////////////////////////////////////\n");			
+// 			printf("\n//////////////////////////////////////////////////\n");			
 			printf("EVENTO %d\n",i);
 	// 		int it2 = binarySearchBis(timeOBTUTC, 1, nrowsOBTUTC, time[i], 1000);
 	/*		printf("tempo cercato %f  --- tempo trovato nel TCSP    %f -- %d\n",time[i],timeTCSP[it],it);
@@ -664,7 +664,7 @@ int CorrTime(fitsfile * output, char * infileTCSP, char * infileOBTUTC) {
 		
 		
 // 		cout<<orbitOBTUTC[it2-1]<<" "<<orbitOBTUTC[it2]<<endl;
-		printf("Differenza TCSP - PDHU       = %f\n",diffTCSPPDHU);
+// 		printf("Differenza TCSP - PDHU       = %f\n",diffTCSPPDHU);
 		
 
 		
@@ -675,8 +675,8 @@ int CorrTime(fitsfile * output, char * infileTCSP, char * infileOBTUTC) {
 			continue;
 			}			
 		
-		printf("ERRORE   TEMPO REALE - OBDH = %f\n",timediffobhreal);		
-		printf("Differenza TCSP - (PDHU+ERRORE)       = %f\n\n",timeTCSP[it]-(time[i]+timediffobhreal));		
+// 		printf("ERRORE   TEMPO REALE - OBDH = %f\n",timediffobhreal);		
+		printf("(PDHUtime+DelayTimeDelay) - RealTimeTC -DelayTC = %f\n\n",(time[i]+timediffobhreal)-timeTCSP[it]-0.159);		
 	
 		
 		if ((timeTCSP[it]-(time[i]+timediffobhreal)) > 0) {
@@ -691,7 +691,8 @@ int CorrTime(fitsfile * output, char * infileTCSP, char * infileOBTUTC) {
 		
 		
 		fits_get_colnum(output, 1, "DIFFTIME", &colnum, &status);
-		double difft = timeTCSP[it]-(time[i]+timediffobhreal);
+		
+		double difft = (time[i]+timediffobhreal)-timeTCSP[it]-0.159;
 		
 		fits_write_col(output, TDOUBLE, colnum, i+1, 1, 1, &difft, &status);	
 		fits_get_colnum(output, 1, "ORBIT", &colnum, &status);
@@ -783,12 +784,12 @@ int WriteHeader(fitsfile * output){
 	return status;
 	}
 
-int Close3916(int argc, char ** argv, fitsfile * input, fitsfile * output, char * infileTCSP) {
+int Cor33XY_bis(int argc, char ** argv, fitsfile * input, fitsfile * output, char * infileTCSP) {
 
 	int status=0;
 	int hdnum = 0;
 	
-	printf("Cor33XY_bis..................... starting Close3916\n");	
+	printf("Cor33XY_bis..................... starting Cor33XY_bis\n");	
 	
 	fits_movabs_hdu(output, 1, NULL, &status);	
 	double tmin=0;
@@ -823,7 +824,7 @@ int Close3916(int argc, char ** argv, fitsfile * input, fitsfile * output, char 
 
 	
 	if ( status) {
-		printf("Cor33XY_bis..................... exiting Close3916 input ERROR:");		
+		printf("Cor33XY_bis..................... exiting Cor33XY_bis input ERROR:");		
 		fits_report_error(stdout, status);	
 		printf("\n");
 		return status;
@@ -831,7 +832,7 @@ int Close3916(int argc, char ** argv, fitsfile * input, fitsfile * output, char 
 
 
 			
-	printf("Cor33XY_bis..................... exiting Close3916 STATUS = 0\n\n");		
+	printf("Cor33XY_bis..................... exiting Cor33XY_bis STATUS = 0\n\n");		
 
 	
 	printf("TIME MINIMUM:  %f\n",tmin);		
@@ -869,7 +870,7 @@ status = Open3916(argc, argv, input, output, infileTCSP,infileOBTUTC);
 // 	status = CorrAtt(output[0]);
 
 if (status ==0)
-	status = Close3916(argc, argv, input[0], output[0],infileTCSP);
+	status = Cor33XY_bis(argc, argv, input[0], output[0],infileTCSP);
 
 if (status) {
   

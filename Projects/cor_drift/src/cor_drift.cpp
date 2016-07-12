@@ -8,10 +8,10 @@
 //
 //
 // INPUT
-//       3916.lv1       = grid event report
+//       Cor_drift.lv1       = grid event report
 //
 // OUTPUT 
-//       3916.cor       = grid event report
+//       Cor_drift.cor       = grid event report
 //
 //
 // FILE HISTORY
@@ -164,8 +164,8 @@ char* Trim(char* word){
 	}
 
 	
-// cor_drift..................... starting Open3916
-// Enter input file name [COR/PKP044681_1_3916_000.new.cor] : 
+// cor_drift..................... starting OpenCor_drift
+// Enter input file name [COR/PKP044681_1_Cor_drift_000.new.cor] : 
 // Enter SOE file name [/storage1/agile/agile2/aux/data/SOE/2015_12/agile_2015_344_12_08.SOE] : 
 // Enter output file name [!test.fits] : 
 	
@@ -373,7 +373,7 @@ int addfileSOE(fitsfile ** iFile, char * fileList, char * expr, double tmin, dou
 	
 	
 	
-int Open3916(int argc, char ** argv) {
+int OpenCor_drift(int argc, char ** argv) {
 	int status=0;
 	char * infile = new char[FLEN_FILENAME];
 		
@@ -395,7 +395,7 @@ int Open3916(int argc, char ** argv) {
 	printf("#########  Task cor_drift......... starting  #########\n");
 	printf("#########         %s         #########\n", version);
 	printf("####################################################\n\n");
-	printf("cor_drift..................... starting Open3916\n");
+	printf("cor_drift..................... starting OpenCor_drift\n");
 
 	status = PILInit(argc,argv);
 	PILGetNumParameters(&numpar);
@@ -417,16 +417,16 @@ int Open3916(int argc, char ** argv) {
 		}
 
 		
-	cout<<status<<endl;	
+	
 		
 	fits_read_key(input, TINT, "DRIFTCORR", &driftcorr, NULL, &status );
 	
-	cout<<status<<endl;	
+
 	
 	if (status != 0) { 
 	  
 		status = 0;
-		cout<<status<<endl;
+// 		cout<<status<<endl;
 		//////////////////////////////////////////////////////////////////////////	
 		//////////////////////////////////////////////////////////////////////////		
 		//////////////////////////////////////////////////////////////////////////
@@ -441,16 +441,19 @@ int Open3916(int argc, char ** argv) {
 		fits_get_num_rows(inputdrift, &nrows, &status);
 		
 		double * difftime = new double[nrows];
-		
+		double meandifftime = 0;
 		fits_get_colnum(inputdrift, 1, "DIFFTIME", &colnum, &status);	
 		fits_read_col(inputdrift, TDOUBLE, colnum,  1, 1, nrows, NULL, difftime, NULL, &status);		
 
-		
+		for (int i=0; i<nrows; ++i) {
+			meandifftime+=difftime[i];
+			}
+		meandifftime = meandifftime/(1.*nrows);
 		//////////////////////////////////////////////////////////////////////////	
 		//////////////////////////////////////////////////////////////////////////		
 		//////////////////////////////////////////////////////////////////////////				
 
-		cout<<status<<endl;
+// 		cout<<status<<endl;
 
 		printf("..........opening output file: %s\n",outfile);
 		fits_create_file(&output, outfile, &status);
@@ -462,20 +465,22 @@ int Open3916(int argc, char ** argv) {
 		fits_copy_file(input, output, 1, 1, 1, &status);
 	
 		fits_get_num_hdus(output, &hdnum, &status);
-		cout<<status<<endl;
+// 		cout<<status<<endl;
 		fits_movabs_hdu(output, 1, NULL, &status);
 		fits_update_key(output, TDOUBLE, "DRIFTCORR",  &driftcorr, "drift (s)", &status);	
+		
+		sprintf(expr,"TIME %f", -meandifftime);
+		cout<<"TIME = "<<expr<<endl;		
 		
 		for (int i=2; i<=hdnum; ++i) {
 			
 // 			int fits_calculator(fitsfile *infptr, char *expr, fitsfile *outfptr,char *colname, char *tform, int *status)
-			sprintf(expr,"TIME %f", difftime[0]+0.159);
-			cout<<expr<<endl;
+
 			fits_movabs_hdu(output, i, NULL, &status);
 			fits_calculator(output, expr, output, "TIME", NULL, &status);
 			
 			
-			cout<<status<<" "<<i<<endl;
+// 			cout<<status<<" "<<i<<endl;
 // 			fits_write_chksum(output,&status);
 			}	
 
@@ -518,7 +523,7 @@ int status=0;
 
 
 
-status = Open3916(argc, argv);
+status = OpenCor_drift(argc, argv);
 
 
 if (status) {

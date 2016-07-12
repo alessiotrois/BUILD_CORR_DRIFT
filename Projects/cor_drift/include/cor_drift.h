@@ -41,8 +41,8 @@
 #include "pil.h"
 
 using namespace std;
-const char * version = "version 0.1 22/01/2016";
-const char * packet = "3916_bis";
+const char * version = "version 1.0 12/07/2016";
+const char * packet = "cor_drift";
 
 int Open3916(int argc, char ** argv, fitsfile ** input, fitsfile ** output, FILE *fp);
 int CorrTime(fitsfile output, FILE *fp) ;

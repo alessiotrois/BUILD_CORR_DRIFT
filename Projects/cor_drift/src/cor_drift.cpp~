@@ -412,6 +412,7 @@ int OpenCor_drift(int argc, char ** argv) {
 
 	printf("..........opening input file: %s\n",infile);
 	fits_open_file(&input, infile, READONLY, &status);
+	cout<<status<<endl;
 	if (status) {
 		return status;
 		}
@@ -481,11 +482,13 @@ int OpenCor_drift(int argc, char ** argv) {
 
 			double tstart = 0;
 			double tstop = 0;
+			fits_get_num_rows(output, &nrows, &status);
 			fits_get_colnum(output, 1, "TIME", &colnum, &status);	
 			fits_read_col(output, TDOUBLE, colnum, 1, 1, 1, NULL, &tstart, NULL, &status);
-			fits_read_col(output, TDOUBLE, colnum, nrows, 1, 1, NULL, &tstop, NULL, &status);	
-			WriteTime(output, &tstart, &tstop);			
-
+			fits_read_col(output, TDOUBLE, colnum, nrows, 1, 1, NULL, &tstop, NULL, &status);
+	
+			WriteTime(output, tstart, tstop);			
+			printf("tstart e tstop = %d %f %f\n",i, tstart,tstop);
 // 			cout<<status<<" "<<i<<endl;
 // 			fits_write_chksum(output,&status);
 			}	

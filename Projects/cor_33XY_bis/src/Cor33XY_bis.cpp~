@@ -787,7 +787,8 @@ int CorrTime(fitsfile * output, char * infileTCSP, char * infileOBTUTC) {
 	fits_delete_file(inputOBTUTC[0],&status);	
 
 	
-
+	double tstart = 0;
+	double tstop = 0;
 	fits_get_num_rows(output, &nrows, &status);
 	fits_get_colnum(output, 1, "TIME", &colnum, &status);	
 	fits_read_col(output, TDOUBLE, colnum, 1, 1, 1, NULL, &tstart, NULL, &status);

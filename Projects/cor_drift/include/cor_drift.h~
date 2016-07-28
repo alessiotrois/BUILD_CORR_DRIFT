@@ -4,7 +4,7 @@
 //       Star sensor packet
 //       Release: V0.2 -  24/feb/2006
 //       Contributors: A.A., A.G., A.P., S.V., S.M.
-//       Author: Alessio Trois (OA-Cagliari)
+//       Author: Alessio Trois (IASF-Milano)
 //
 //
 // INPUT
@@ -18,7 +18,7 @@
 //       First release: V1.0 16/Mar/2005
 //
 //       Last Release: V0.2 -  24/feb/2006
-//                      Authors:       Alessio Trois (OA-Cagliari)
+//                      Authors:       Alessio Trois (IASF-Milano)
 
 // NOTICE
 //       Any information contained in this software
@@ -41,7 +41,7 @@
 #include "pil.h"
 
 using namespace std;
-const char * version = "version 1.2 26/07/2016";
+const char * version = "version 1.1 19/07/2016";
 const char * packet = "cor_drift";
 
 int Open3916(int argc, char ** argv, fitsfile ** input, fitsfile ** output, FILE *fp);

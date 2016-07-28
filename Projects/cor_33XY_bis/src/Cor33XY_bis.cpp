@@ -644,9 +644,9 @@ int CorrTime(fitsfile * output, char * infileTCSP, char * infileOBTUTC) {
 // 	cout<<nrowsTCSP<<endl;
 // 	for(int i = 0; i< nrowsTCSP; i++) printf("%f\n",timeTCSP[i]);
 // 	fits_close_file(inputTCSP[0], &status);	
-	for (int i=19; i>0; i--) {
-		  fits_delete_col(output, i, &status);
-		  }
+//	for (int i=19; i>0; i--) {
+//		  fits_delete_col(output, i, &status);
+//		  }
 	
 	fits_insert_col(output, 1, "DIFFTIME", "1D", &status);	
 	fits_insert_col(output, 2, "TIME_TCSP", "1D", &status);	
@@ -776,9 +776,9 @@ int CorrTime(fitsfile * output, char * infileTCSP, char * infileOBTUTC) {
 		return status;
 		}		
 	
-	fits_delete_col(output, 12, &status);
-	fits_delete_col(output, 9, &status);
-	fits_delete_col(output, 8, &status);
+//	fits_delete_col(output, 12, &status);
+//	fits_delete_col(output, 9, &status);
+//	fits_delete_col(output, 8, &status);
 
 	fits_select_rows(output, output, "ORBIT > 1100", &status);
 

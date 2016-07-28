@@ -419,7 +419,7 @@ int OpenCor_drift(int argc, char ** argv) {
 		
 	
 		
-	fits_read_key(input, TINT, "DRIFTCORR", &driftcorr, NULL, &status );
+	fits_read_key(input, TDOUBLE, "DRIFTCORR", &driftcorr, NULL, &status );
 	
 
 	
@@ -465,19 +465,28 @@ int OpenCor_drift(int argc, char ** argv) {
 		fits_copy_file(input, output, 1, 1, 1, &status);
 	
 		fits_get_num_hdus(output, &hdnum, &status);
-// 		cout<<status<<endl;
+
 		fits_movabs_hdu(output, 1, NULL, &status);
-		fits_update_key(output, TDOUBLE, "DRIFTCORR",  &driftcorr, "drift (s)", &status);	
-		
+		fits_update_key(output, TDOUBLE, "DRIFTCORR",  &meandifftime, "drift (s)", &status);	
 		sprintf(expr,"TIME %f", -meandifftime);
-		cout<<"TIME = "<<expr<<endl;		
+
+//		cout<<"TIME = "<<expr<<endl;		
 		
 		for (int i=2; i<=hdnum; ++i) {
 			
 // 			int fits_calculator(fitsfile *infptr, char *expr, fitsfile *outfptr,char *colname, char *tform, int *status)
 
 			fits_movabs_hdu(output, i, NULL, &status);
+			fits_update_key(output, TDOUBLE, "DRIFTCORR",  &meandifftime, "drift (s)", &status);
+
+			fits_insert_col(output, 1000, "TIMEORI", "1D", &status);
+			sprintf(expr,"TIME");
+			fits_calculator(output, expr, output, "TIMEORI", NULL, &status);
+
+
+			sprintf(expr,"TIME %f", -meandifftime);				
 			fits_calculator(output, expr, output, "TIME", NULL, &status);
+
 
 			double tstart = 0;
 			double tstop = 0;
